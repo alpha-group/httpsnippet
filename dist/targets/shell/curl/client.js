@@ -178,7 +178,7 @@ exports.curl = {
                 // raw request body
                 if (!postData.text) {
                     if (['POST', 'PUT'].includes(method)) {
-                    push("".concat("-X", ` ${method}`));
+                      push("".concat("-X", ` ${method}`));
                     }
                     break;
                 }
